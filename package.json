@@ -12,7 +12,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "lint:css": "stylelint /*src*/*.css",
+    "lint:css": "stylelint src/**/*.css",
     "lint:js": "eslint src/**/*.js",
     "lint": "npm run lint:css && npm run lint:js",
     "start": "react-scripts start",
@@ -21,7 +21,7 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
+    "extends": [ 
       "react-app",
       "react-app/jest"
     ]
